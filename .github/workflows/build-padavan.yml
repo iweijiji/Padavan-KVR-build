@@ -39,7 +39,7 @@ jobs:
         else
         git clone --depth=1 https://github.com/xsd871/Padavan-KVR.git /opt/Padavan-KVR
         fi
-        cd /opt/rt-n56u/toolchain-mipsel
+        cd /opt/Padavan-KVR/toolchain-mipsel
         sh dl_toolchain.sh
         mkdir -p /opt/images/
     - name: Build Firmware
@@ -47,7 +47,7 @@ jobs:
         TNAME: K2P_nano-5.0
         KERNEL: 3.4
       run: |
-        cd /opt/rt-n56u/trunk
+        cd /opt/Padavan-KVR/trunk
         if [ ! -f configs/templates/$TNAME.config ] ; then
         echo "configs/templates/$TNAME.config not found "
         exit 1
