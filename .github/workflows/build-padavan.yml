@@ -146,7 +146,6 @@ jobs:
         echo "CONFIG_FIRMWARE_INCLUDE_SOFTETHERVPN_CMD=n" >> .config
         echo "CONFIG_FIRMWARE_INCLUDE_SFTP=n" >> .config
         echo "CONFIG_FIRMWARE_INCLUDE_CURL=n" >> .config
-        #echo "CONFIG_FIRMWARE_INCLUDE_XUPNPD=n" >> .config
         #echo "CONFIG_FIRMWARE_ENABLE_IPV6=n" >> .config
         #echo "CONFIG_FIRMWARE_INCLUDE_IPERF3=n" >> .config
         #echo "CONFIG_FIRMWARE_INCLUDE_IPSET=n" >> .config
